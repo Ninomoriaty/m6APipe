@@ -6,6 +6,11 @@ channels:
   - defaults
   - r
 dependencies:
+  - mspc=3.3
+  - qnb=1.1.11
+  - metdiff=1.0.0
+  - matk=1.0.0
+  - metpeak=1.0.0
   - r-base=3.5.1=he45234b_1005
   - nextflow=19.01.0=ha4d7672_4
   - python=2.7.15=h938d71a_1006

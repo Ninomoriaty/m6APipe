@@ -4,7 +4,7 @@ LABEL description="Docker image containing all requirements for nf-core/m6APipe 
 COPY environment.yml ./
 
 ENV PATH /opt/conda/bin:$PATH
-RUN conda env create -f /environment.yml && conda clean -a
+RUN conda env create -f /environment.yml -n nf-core-m6APipe-1.0dev && conda clean -a
 ENV PATH /opt/conda/envs/nf-core-m6APipe-1.0dev/bin:$PATH
 
 # install MeTPeak
