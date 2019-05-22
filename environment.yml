@@ -36,5 +36,6 @@ dependencies:
   - r-ggplot2=3.1.1=r351h6115d3f_0
   - ucsc-genepredtobed=377=h199ee4e_1
   - scipy=1.2.1=py27he2b7bc3_0
-  - deeptools=3.1.3
-  - bioconductor-alpine=1.8.0
+  - deeptools=3.1.3=py27h14c3975_1
+  - bioconductor-alpine=1.8.0=r351_0
+  - unzip=6.0=0
