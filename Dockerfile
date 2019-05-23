@@ -25,11 +25,12 @@ RUN wget https://cran.r-project.org/src/contrib/Archive/QNB/QNB_1.1.11.tar.gz &&
     rm QNB_1.1.11.tar.gz
 
 # # install SRAMP
-RUN wget http://www.cuilab.cn/files/m6asite_results/model/sramp_simple.zip && \
-    unzip sramp_simple.zip && \
-    rm sramp_simple.zip 
+#RUN wget http://www.cuilab.cn/files/m6asite_results/model/sramp_simple.zip && \
+#    unzip sramp_simple.zip && \
+#    rm sramp_simple.zip 
 
 # # install MATK
 RUN wget http://matk.renlab.org/download/MATK-1.0.jar
 
+CMD [ "/bin/bash" ]
 
