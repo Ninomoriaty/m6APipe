@@ -22,7 +22,7 @@ RUN git clone https://github.com/compgenomics/MeTDiff.git && \
     rm -rf MeTDiff*
 
 # install MeTPeak
-RUN git clone https://github.com/arlston/MeTPeak.git && \
+RUN git clone https://github.com/compgenomics/MeTPeak.git && \
     R CMD build MeTPeak/ && \
     R CMD INSTALL MeTPeak_1.0.0.tar.gz && \
     rm -rf MeTPeak*
